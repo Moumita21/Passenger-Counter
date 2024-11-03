@@ -1,0 +1,83 @@
+body{
+    background-image: url("images/yarn1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    color:rgb(73, 109, 186);
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.container{
+    background-color: white;
+    max-width: 80%;
+    margin: auto;
+    border:3px solid black;
+    border-radius: 30px;
+    
+}
+
+/* button{
+    border:none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-bottom: 5px;
+} */
+
+
+/* CSS */
+button {
+  background-color: #ffffff;
+  border-radius: 100px;
+  box-shadow: rgba(44, 87, 187, 0.2) 0 -25px 18px -14px inset,rgba(44, 58, 187, 0.15) 0 1px 2px,rgba(65, 44, 187, 0.15) 0 2px 4px,rgba(44, 77, 187, 0.15) 0 4px 8px,rgba(44, 87, 187, 0.15) 0 8px 16px,rgba(44, 70, 187, 0.15) 0 16px 32px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  box-shadow: rgba(54, 128, 202, 0.35) 0 -25px 18px -14px inset,rgba(44, 56, 187, 0.25) 0 1px 2px,rgba(44, 46, 187, 0.25) 0 2px 4px,rgba(44, 73, 187, 0.25) 0 4px 8px,rgba(44, 96, 187, 0.25) 0 8px 16px,rgba(44, 80, 187, 0.25) 0 16px 32px;
+  transform: scale(1.05) ;
+  -webkit-transform: scale(1.05) ;
+  -moz-transform: scale(1.05) ;
+  -ms-transform: scale(1.05) ;
+  -o-transform: scale(1.05) ;
+}
+#increment-btn{
+    background:rgb(255, 251, 211);
+}
+
+#save-btn{
+   
+    background:rgb(109, 127, 216);
+    color: white;
+} 
+p{
+    color: black;
+}
+#reset{
+    display: block;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    background-color: green;
+}
